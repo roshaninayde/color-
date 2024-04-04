@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Picker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="colorPicker">
+        <button id="button" style="background-color:rgb(129, 225, 73); font-size: 16px;">Color Box</button>
+        <div id="colornames">
+            <label class="color" onclick="changeColor('red')">Red</label>
+            <label class="color" onclick="changeColor('blue')">Blue</label>
+            <label class="color" onclick="changeColor('green')">Green</label>
+            <label class="color" onclick="changeColor('yellow')">Yellow</label>
+            <label class="color" onclick="changeColor('orange')">Orange</label>
+            
+    
+        </div>
+    </div>
+
+    <script>
+        function changeColor(color) {
+            document.getElementById('button').style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
